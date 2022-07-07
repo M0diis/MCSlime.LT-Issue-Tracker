@@ -18,29 +18,29 @@ COMMAND:
     NOTMEMBER: '%1$s&7 nėra frakcijos narys.'
     NOTADMIN: '&cTu nesi frakcijos administratorius.'
     TARGETSELF: '&cNegali naudotis šios komandos sau.'
-    DEMOTES: '&7You have demoted %1$s&7 from the position of faction admin.'
+    DEMOTES: '&7Tu pažeminai %1$s&7 iš frakcijos administratoriaus pareigų.'
     DEMOTED: '&7%1$s&7 pažemino jus pareigose.'
-    PROMOTES: '&7You have promoted %1$s&7 to the position of faction admin.'
-    PROMOTED: '%1$s&7 gave %2$s&7 the leadership of %3$s&7.'
-    DESCRIPTION: Hand over your admin rights
+    PROMOTES: '&7Jūs paaukštinote %1$s&7 į frakcijos administratoriaus pareigas.'
+    PROMOTED: '%1$s&7 davė %2$s&7 vadovybė %3$s&7.'
+    DESCRIPTION: Perduodate savo administratoriaus teises
   AHOME:
     DESCRIPTION: Send a player to their f home no matter what.
     NOHOME: '%1$s neturi frakcijos namų.'
-    SUCCESS: $1%s was sent to their f home.
+    SUCCESS: $1%s buvo nusiustas į frakcijos namus.
     OFFLINE: '%1$s yra atsijungęs.'
-    TARGET: You were sent to your f home.
+    TARGET: Tu buvai nusiustas į frakcijos namus.
   ANNOUNCE:
-    DESCRIPTION: Announce a message to players in faction.
+    DESCRIPTION: Paskelbkite žinutę frakcijos nariams.
   AUTOCLAIM:
-    ENABLED: '&7Now auto-claiming land for &d%1$s&7.'
-    DISABLED: '&7Auto-claiming of land disabled.'
-    REQUIREDRANK: '&cYou must be &d%1$s&c to claim land.'
-    OTHERFACTION: '&cYou can''t claim land for &d%1$s&c.'
-    DESCRIPTION: Auto-claim land as you walk around
+    ENABLED: '&7Dabar automatiškai užimi žeme savo frakcijai &d%1$s&7.'
+    DISABLED: '&7Automatinis žemės užimimas išjungtas.'
+    REQUIREDRANK: '&cTu turi būti &d%1$s&c kad galėtum užimti žeme.'
+    OTHERFACTION: '&cTu negali užimti žemės šiai frakcijai &d%1$s&c.'
+    DESCRIPTION: Vaikščiodami automatiškai užimsite žeme
   AUTOHELP:
     HELPFOR: Help for command "
   BAN:
-    DESCRIPTION: 'Neleisti žaidėjams prisijungti prie frakcijos'
+    DESCRIPTION: Ban players from joining your Faction.
     TARGET: '&cYou were banned from &7%1$s'
     BANNED: '&7%1$s &cbanned &7%2$s'
     SELF: '&cYou may not ban yourself'
@@ -74,10 +74,10 @@ COMMAND:
     DESCRIPTION: Change chat mode
     MODE:
       PUBLIC: '&7Public chat mode.'
-      ALLIANCE: '&7Alliance only chat mode.'
+      ALLIANCE: '&7Tik aljanso pokalbių režimas.'
       TRUCE: '&7Truce only chat mode.'
-      FACTION: '&7Faction only chat mode.'
-      MOD: '&7Mod only chat mode.'
+      FACTION: '&7Tik frakcijos pokalbių režimas.'
+      MOD: '&7Tik moderatoriu pokalbių režimas.'
   CHATSPY:
     ENABLE: '&7You have enabled chat spying mode.'
     ENABLELOG: ' has ENABLED chat spying mode.'
