@@ -96,7 +96,7 @@ COMMAND:
     NOTVALID: '%s&c is not a cardinal direction. You may use &dnorth&c, &deast&c,
       &dsouth &cor &dwest&c.'
   COLEADER:
-    CANDIDATES: 'Narius, kuriuos galite paaukštinti: '
+    CANDIDATES: 'Nariai, kuriuos galite paaukštinti: '
     CLICKTOPROMOTE: 'Spustelėkite norėdami paaukštinti '
     NOTMEMBER: '%1$s&c nėra jūsų frakcijos narys.'
     NOTADMIN: '&cTu nesi frakcijos administratorius.'
