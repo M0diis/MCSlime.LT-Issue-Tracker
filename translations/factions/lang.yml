@@ -73,7 +73,7 @@ COMMAND:
     INSUFFICIENTRANK: '&cYou must be at least moderator to enter this chat.'
     DESCRIPTION: Change chat mode
     MODE:
-      PUBLIC: '&7Public chat mode.'
+      PUBLIC: '&7Viešų pokalbių režimas.'
       ALLIANCE: '&7Tik aljanso pokalbių režimas.'
       TRUCE: '&7Truce only chat mode.'
       FACTION: '&7Tik frakcijos pokalbių režimas.'
