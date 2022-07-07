@@ -7,6 +7,7 @@ Issues yra skirti jau paruoštai idėjai ar žinomai klaidai.
 **Kur pradėti?**  
 - Jeigu turi minčių, bet jos nėra iki galo išpildytos - jas gali išsakyti [diskusijose](https://github.com/M0diis/MCSlime.LT-Issue-Tracker/discussions/1).
 - Jeigu jau žinai kokią nors serverio klaidą ar nori iš karto išsakyti savo pilną idėją - sukurk naują [issue](https://github.com/M0diis/MCSlime.LT-Issue-Tracker/issues/new/choose).
+- Jeigu nori prisidėti prie failų vertimo - visą informaciją rasi vertimų informacijos [puslapyje](https://github.com/M0diis/MCSlime.LT-Issue-Tracker/wiki/Vertimai).
 
 **Greitos Nuorodos**  
 - [Nauja klaida](https://github.com/M0diis/MCSlime.LT-Issue-Tracker/issues/new?assignees=&labels=bug&template=bug_report.md&title=).  
