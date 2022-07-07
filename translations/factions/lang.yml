@@ -41,17 +41,17 @@ COMMAND:
     HELPFOR: Help for command "
   BAN:
     DESCRIPTION: Ban players from joining your Faction.
-    TARGET: '&cYou were banned from &7%1$s'
-    BANNED: '&7%1$s &cbanned &7%2$s'
-    SELF: '&cYou may not ban yourself'
-    INSUFFICIENTRANK: '&cYour rank is too low to ban &7%1$s'
-    ALREADYBANNED: '&c%1$s is already banned'
+    TARGET: '&cTu buvai užblokuotas is &7%1$s frakcijos'
+    BANNED: '&7%1$s &cužblokavo &7%2$s'
+    SELF: '&cTu negali užblokuoti saves'
+    INSUFFICIENTRANK: '&cTavo rangas per žemas, kad galėtum užblokuoti &7%1$s'
+    ALREADYBANNED: '&c%1$s jau yra užblokuotas'
   BANLIST:
     DESCRIPTION: View a Faction's ban list
     HEADER: '&6There are &c%d&6 bans for %s'
     ENTRY: '&7%d. &c%s &r- &a%s &r- &7%s'
-    NOFACTION: '&4You are not in a Faction.'
-    INVALID: We couldn't find a Faction by the name %s
+    NOFACTION: '&4Tu nesi frakcijoje.'
+    INVALID: Nepavyko rasti frakcijos pavadinimu %s
   BOOM:
     PEACEFULONLY: '&cThis command is only usable by factions which are specifically
       designated as peaceful.'
@@ -79,9 +79,9 @@ COMMAND:
       FACTION: '&7Tik frakcijos pokalbių režimas.'
       MOD: '&7Tik moderatoriu pokalbių režimas.'
   CHATSPY:
-    ENABLE: '&7You have enabled chat spying mode.'
+    ENABLE: '&7Įjungėte pokalbių šnipinėjimo režimą.'
     ENABLELOG: ' has ENABLED chat spying mode.'
-    DISABLE: '&7You have disabled chat spying mode.'
+    DISABLE: '&7Išjungėte pokalbių šnipinėjimo režimą.'
     DISABLELOG: ' has DISABLED chat spying mode.'
     DESCRIPTION: Enable admin chat spy mode
   CLAIM:
@@ -96,16 +96,16 @@ COMMAND:
     NOTVALID: '%s&c is not a cardinal direction. You may use &dnorth&c, &deast&c,
       &dsouth &cor &dwest&c.'
   COLEADER:
-    CANDIDATES: 'Players you can promote: '
-    CLICKTOPROMOTE: 'Click to promote '
-    NOTMEMBER: '%1$s&c is not a member in your faction.'
-    NOTADMIN: '&cYou are not the faction admin.'
-    SELF: '&cThe target player musn''t be yourself.'
-    TARGETISADMIN: '&cThe target player is a faction admin. Demote them first.'
-    REVOKES: '&7You have removed coleader status from %1$s&7.'
-    REVOKED: '%1$s&7 is no longer coleader in your faction.'
-    PROMOTES: '%1$s&7 was promoted to coleader in your faction.'
-    PROMOTED: '&7You have promoted %1$s&7 to coleader.'
+    CANDIDATES: 'Narius, kuriuos galite paaukštinti: '
+    CLICKTOPROMOTE: 'Spustelėkite norėdami paaukštinti '
+    NOTMEMBER: '%1$s&c nėra jūsų frakcijos narys.'
+    NOTADMIN: '&cTu nesi frakcijos administratorius.'
+    SELF: '&cThe target player neturi būti savimi.'
+    TARGETISADMIN: '&cPasirinktas narys yra frakcijos administratorius. Pirmiausia pažeminkite ji.'
+    REVOKES: '&7Pašalinote coleaderio statusa iš %1$s&7.'
+    REVOKED: '%1$s&7 nebėra jūsų frakcijos coleaderis.'
+    PROMOTES: '%1$s&7 buvo paaukštintas į frakcijos coleaderi.'
+    PROMOTED: '&7Tu paaukštinai %1$s&7 į coleaderi.'
     DESCRIPTION: Give or revoke coleader rights
     ALREADY:
       COLEADER: The faction already has a coleader. There can only be 1.
@@ -156,10 +156,10 @@ COMMAND:
   DEINVITE:
     CANDEINVITE: 'Players you can deinvite: '
     CLICKTODEINVITE: Click to revoke invite for %1$s
-    ALREADYMEMBER: '%1$s&7 is already a member of %2$s'
+    ALREADYMEMBER: '%1$s&7 jau yra narys %2$s frakcijos'
     MIGHTWANT: '&7You might want to: %1$s'
-    REVOKED: '%1$s&7 revoked your invitation to &d%2$s&7.'
-    REVOKES: '%1$s&7 revoked %2$s''s&7 invitation.'
+    REVOKED: '%1$s&7 atšaukė jūsų pakvietimą į &d%2$s&7.'
+    REVOKES: '%1$s&7 atšaukė %2$s''s&7 pakvietimą.'
     DESCRIPTION: Remove a pending invitation
   DELFWARP:
     DELETED: '&7Deleted warp &6%1$s'
@@ -168,12 +168,12 @@ COMMAND:
     FORDELETE: for deleting warp
     DESCRIPTION: Delete a faction warp
   DESCRIPTION:
-    CHANGES: 'You have changed the description for &d%1$s&7 to:'
-    CHANGED: '&7The faction %1$s&7 changed their description to:'
+    CHANGES: 'Tu pakeitėtei aprašymą iš &d%1$s&7 į:'
+    CHANGED: '&7Frakcija %1$s&7 pakeitė savo aprašymą į:'
     TOCHANGE: to change faction description
     FORCHANGE: for changing faction description
     DESCRIPTION: Change the faction description
-    TOOLONG: '&cDescription too long! Limit is %s characters.'
+    TOOLONG: '&cAprašymas per ilgas! Limitas yra %s simboliai.'
   DISBAND:
     IMMUTABLE: '&7You cannot disband the Wilderness, SafeZone, or WarZone.'
     MARKEDPERMANENT: '&7This faction is designated as permanent, so you cannot disband
@@ -290,13 +290,13 @@ COMMAND:
     ATTEMPTEDJOIN: '%1$s&7 tried to join your faction.'
     TOJOIN: to join a faction
     FORJOIN: for joining a faction
-    SUCCESS: '&7%1$s successfully joined %2$s.'
-    MOVED: '&7%1$s moved you into the faction %2$s.'
-    JOINED: '&7%1$s joined your faction.'
-    JOINEDLOG: '%1$s joined the faction %2$s.'
-    MOVEDLOG: '%1$s moved the player %2$s into the faction %3$s.'
+    SUCCESS: '&7%1$s sėkmingai prisijungė į %2$s.'
+    MOVED: '&7%1$s perkėlė jus į frakciją %2$s.'
+    JOINED: '&7%1$s prisijungė prie jūsų frakcijos.'
+    JOINEDLOG: '%1$s įstojo į frakciją %2$s.'
+    MOVEDLOG: '%1$s perkėlė narį %2$s į frakciją %3$s.'
     DESCRIPTION: Join a faction
-    BANNED: '&cYou are banned from %1$s &c:('
+    BANNED: '&cTu esi užblokuotas iš %1$s &c:('
   KICK:
     CANDIDATES: 'Players you can kick: '
     CLICKTOKICK: 'Click to kick '
