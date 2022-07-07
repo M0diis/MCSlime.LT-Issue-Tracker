@@ -40,7 +40,7 @@ COMMAND:
   AUTOHELP:
     HELPFOR: Help for command "
   BAN:
-    DESCRIPTION: Ban players from joining your Faction.
+    DESCRIPTION: 'Neleisti žaidėjams prisijungti prie frakcijos'
     TARGET: '&cYou were banned from &7%1$s'
     BANNED: '&7%1$s &cbanned &7%2$s'
     SELF: '&cYou may not ban yourself'
